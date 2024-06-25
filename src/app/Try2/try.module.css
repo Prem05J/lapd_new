@@ -1,0 +1,110 @@
+/* styles/Home.module.css */
+/* styles/try.module.css */
+.container {
+    /* background: url('/BGwithicons.png') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed; Ensure the background image remains fixed during scrolling */
+    background-color: #A0B0C0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .manualButton {
+    border: 1px solid var(--Primary-colours-Primary-100, #052942);
+    background: var(--Primary-colours-Primary-100, #052942);
+    color: #fff;
+    padding: 20px 31px;
+    cursor: pointer;
+    margin-top: 10px;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+  
+  .videoboxheader {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .videoSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .videoBox {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    width: 391px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .videoOverlay {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 70.26%; /* 391 / 274 = 1.428 (approx) */
+    overflow: hidden;
+    display: block;
+  }
+  
+  .thumbnail {
+    object-fit: cover;
+  }
+  
+  .playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: url('/play-icon.png') no-repeat center center;
+    background-size: contain;
+    transform: translate(-50%, -50%);
+  }
+  
+ 
+  
+  
+
+  .paratext{
+    color: #451400;
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: auto;
+    padding: inherit;
+  } 
+
+
+  .videoboxheader{
+    color: var(--Primary-colours-Primary-100, #052942);
+text-align: center;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 38px; 
+  }

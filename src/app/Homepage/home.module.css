@@ -1,0 +1,256 @@
+.container {
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+ 
+}
+.topNavbar {
+    background-color: white;
+    border-radius: 5px;
+    padding:1px 7px 1px 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.headerText {
+    color: #fff;
+    margin-left: 8px;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.headerButton {
+    color: #fff;
+    border-color: #fff;
+    margin-left: 8px;
+}
+
+.languageInput {
+    margin-left: 8px;
+    background-color: #fff;
+}
+/* navbar */
+
+.navbar {
+    background-color: #fff;
+    color: #000;
+    padding: 13px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; /* Ensure items wrap to stay in view */
+}
+
+
+.leftNav,
+.rightNav {
+    display: flex;
+    align-items: center;
+}
+
+.leftNav a,
+.rightNav a {
+    margin: 0 16px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.navLink:hover {
+    color: red;
+}
+
+.navLink::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: width 0.3s;
+    margin: auto;
+}
+
+.navLink:hover::after {
+    width: 40%;
+    margin-left: 0; /* Ensure the underline starts from the beginning of the text */
+}
+
+#logo:hover {
+    color: inherit;
+}
+
+.rightNav {
+    flex: 1;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    margin-right: 35px;
+}
+
+.rightNav a {
+    margin-left: 16px; /* Adjust as needed to keep the icon and link together */
+}
+
+.searchButton {
+    color: #000;
+    margin-left: 16px;
+}
+
+
+
+.videoBox {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoOverlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+    overflow: hidden;
+
+}
+
+.videoBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.videoContent {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-left: 40px;
+   margin-top: 50px;
+   
+    
+}
+
+.joinLAPD {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--Grey-80, #6F6F6F);
+    border: #000;
+    border-bottom: 1.5px solid;
+
+}
+
+
+.joinButton:hover {
+    background-color: #0c254a;
+}
+
+.container1 {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .iconBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 30px 200px;
+  }
+  
+  .iconItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .typestyle {
+    color: #6F6F6F;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  /* cards style*/
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  height: 500px;
+  width: 500px;
+}
+
+.textSection {
+  color: #000;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header2 {
+  margin-bottom: 20px;
+}
+
+.bodyText {
+  margin-bottom: 20px;
+}
+
+.readMoreBtn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  width: -webkit-fill-available;
+}
+
+.imageSection {
+  position: relative;
+  width: 250px;
+  height: 500px;
+}

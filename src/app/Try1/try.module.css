@@ -1,0 +1,116 @@
+.newsSection {
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 1200px; /* Fixed width to prevent container resizing */
+}
+.subtitle {
+  color: #9095A0;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  margin-bottom: 8px;
+  display:flex ;
+  justify-content: center;
+}
+
+.mainTitle {
+  color: var(--Primary-colours-Primary-100, #052942);
+  font-family: Epilogue;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 142.222% */
+  display:flex ;
+  justify-content: center;
+}
+
+.contentGrid {
+  max-width: 1200px; /* Ensures the content grid has a fixed width */
+  margin: 0 auto;
+}
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardMedia {
+  height: 205px;
+  width: 100%;
+}
+
+.cardDetails {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.readMore {
+  margin-top: 16px;
+  cursor: pointer;
+  color: #BCC1CA;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+
+.eventBox {
+  background-color: #FFF;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.dateBox {
+  background-color: #536C81;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.dateText {
+  color: #FFF;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.dateMonth {
+  color: #FFF;
+text-align: center;
+font-family: Epilogue;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+}
+
+.eventDetails {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.iconRed {
+  color: red;
+}
+.h1text{
+  
+  color: #171A1F;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 152.381% */
+  font-family: Arial;
+  line-height: 2;
+
+}
